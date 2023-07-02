@@ -1,0 +1,191 @@
+* {
+    font-family: 'Darumadrop One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    /* Para remover a borda do navegador, usar sempreeeeee*/
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+
+    margin: 44px 0 144px 76px;
+    /*Tecnicas do relogio*/
+    color: #989D9C;
+    text-transform: uppercase;
+}
+
+.header {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /*Altura da linha*/
+    cursor: pointer;
+}
+
+.login {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /*Altura da linha*/
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    margin-top: none;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+
+}
+
+.caixa-da-direita {
+
+    display: inline-block;
+    /* Para deixar na mesma linha tenho que usar esta tag, e usar tambem no mesmo elemnto que esta na linha anterior*/
+    position: relative;
+    margin-left: 86px;
+
+
+
+}
+
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 30px;
+
+}
+
+.explore {
+    background: #ADFF00;
+    border-radius: 20.5px;
+    border: none;
+    width: 239px;
+    height: 64px;
+    margin-top: 65px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25));
+    cursor: pointer;
+}
+
+@media screen and (max-width: 723px) {
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    .tudo {
+        width: auto;
+        height: auto;
+        display: flex;
+    }
+
+    a {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        display: inline-block;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .logo-image {
+        display: flex;
+        width: auto;
+        height: 250px;
+        margin: 30px auto 15px auto;
+        display: flex;
+       
+
+    }
+
+    .caixa-da-direita {
+        display: block;
+        margin: 0;
+        position: static;
+        padding-bottom: 30px;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 15px auto 10px auto;
+        height: 50px;
+        width: 180px;
+        line-height: normal;
+        align-items: center;
+    }
+
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+       
+
+    }
+
+    p {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 0px auto 5px auto;
+      
+    }
+
+    .explore{
+        align-items: center;
+        width: 100px;
+        font-size: 15px;
+        height: 30px;
+        margin: 20px auto 0px auto;
+        display: block;
+        
+        
+    }
+
+
+}
