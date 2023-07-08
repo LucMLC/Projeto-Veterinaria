@@ -5,5 +5,5 @@
 <br>
 <p> Este projeto é baseado em uma veterinaria, uma tela unica com bastante efeitos, compatível tanto na versão mobile como na versão desktop com telas maiores. </p>
 <a href="https://lucmlc.github.io/Projeto-Veterinaria/">Site publicado</a>
-<a><img src="https://github.com/LucMLC/Projeto-site-game/assets/135182116/3ce016b3-c9c9-4812-88c7-d8b73fdb9267 alt="img-demonstração-do-site"></a>
+<a><img src="https://github.com/LucMLC/Projeto-Veterinaria/blob/main/assets/Design%20sem%20nome%20(2).png?raw=true"></a>
 <br>
